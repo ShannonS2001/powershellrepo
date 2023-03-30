@@ -1,6 +1,7 @@
 $resourceGoupName = 'skylinespsdemo'
 $azureRegion = 'East US'
 $vmName = 'MYVM'
+$storage_key='';
 
 #region Create the resource group
 New-AzResourceGroup -Name $resourceGoupName -Location $azureRegion
